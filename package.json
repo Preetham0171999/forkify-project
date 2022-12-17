@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Receipe",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Preetham",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "@types/core-js": "^2.5.5",
+    "@types/regenerator-runtime": "^0.13.1",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "core-js": "^3.26.1",
+    "fraction": "^0.2.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11",
+    "search": "^1.0.0"
+  }
+}
